@@ -1,0 +1,43 @@
+body{
+    background-color: #4343F9;
+    box-sizing: border-box;
+    position: relative;
+}
+#root{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    background-color: #4343F9;
+    margin: 0 auto;
+    width: 240px;
+    height: 360px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+div div{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    position: absolute;
+}
+.first{
+    top: 20px;
+}
+.second{
+    right: 20px;
+}
+.third{
+    bottom: 20px;
+}
+.fourth{
+    left: 20px;
+}
